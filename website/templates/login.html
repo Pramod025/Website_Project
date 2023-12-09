@@ -1,0 +1,24 @@
+{% extends 'Base.html' %}
+
+{% block content %}
+
+    {% comment %} <h1>Hello {{name}}</h1> {% endcomment %}
+    <form action="{% url 'details_form' %}" method="post">
+
+  {% csrf_token %}
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+   <label for="password">Password</label><br>
+    <input type="password" placeholder="Enter Password" name="password" required><br><br>
+
+    <button type="button" class="register">Register</button>
+
+
+</form>
+
+{% endblock %}
+    
+
+

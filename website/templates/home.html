@@ -1,0 +1,22 @@
+{% extends 'Base.html' %}
+
+{% block content %}
+
+    <h1>Click here to go to form </h1>
+
+     <a href="{% url 'details_form' %}" class ="sep"><button>Details Form</button></a>
+    
+     <a href="{% url 'register' %}" class ="sep"><button>Register</button></a>
+
+     <a href="{% url 'login' %}" class ="sep"><button>Login</button></a>
+
+      <a href="{% url 'logout' %}" class ="sep"><button>Logout</button></a>
+     
+
+
+{% endblock %}
+
+
+    
+
+

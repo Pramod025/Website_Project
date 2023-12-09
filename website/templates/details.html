@@ -1,0 +1,32 @@
+{% extends 'Base.html' %}
+
+
+{% block content%}
+
+<form action="{% url 'details_form' %}" method="post">
+
+  {% csrf_token %}
+
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name" ><br>
+
+  <label for="desc">About :</label><br>
+  <input type="text" id="desc" name="desc" placeholder="Tell us about yourself " ><br><br>
+
+  <label for="mobile">Mobile no:</label><br>
+  <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" ><br><br>
+
+  <label for="colour">Colour :</label><br>
+  <input type="text" id="colour" name="colour" placeholder="Enter your favourite colour" ><br><br>
+
+  <label for="dob">DOB :</label><br>
+  <input type="date" id="dob" name="dob" placeholder="Enter your Date of birth" ><br><br>
+
+  <input type="file" id="file" name="file"><br><br>
+
+  <input type="submit" value="Submit">
+
+</form>
+
+
+{% endblock %}

@@ -1,0 +1,85 @@
+  .center {
+    text-align: center;
+    width: 70%; /* Adjust the width of the centered content */
+    border: 2px; /* Decrease the border size to 2px */
+    padding: 7px; /* Adjust the padding for top/bottom and left/right */
+    margin: auto auto; /*Sets top and bottom margin to 30px and left-right margin to auto */
+    /* background-color:red ; */
+}
+.login{
+  text-align: center;
+    width: 60%; /* Adjust the width of the centered content */
+    border: 50px; /* Decrease the border size to 2px */
+    padding: 150px; /* Adjust the padding for top/bottom and left/right */
+    margin: auto auto;
+}
+
+
+.background{
+  background-image: url('../images/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textwhite{
+  color:white;
+  text-align: center;
+  padding: 7px; 
+  margin-top:80px;
+}
+
+.textblack{
+  color:black;
+  text-align: center;
+  border: 2px solid black;
+  padding: 7px; 
+  margin-top:80px;
+}
+
+  .no-border{
+    border:none
+  }
+
+  .topnav{
+    border: 3px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+  }
+  .topnav a{
+    font-size: 20px;
+    margin:auto  100px;
+    color:white;
+  }
+.search-bar input[type="text"]{
+  background-color:transparent;
+  border: 3px solid #ccc; 
+  text-align: center;
+  font-size:20px;
+  margin-top: 100px;
+  width:600px;
+  height:50px;
+  opacity:0px;
+}
+
+.inputclass1{
+color:white;
+background-color: transparent;
+}
+.inputclass1::placeholder{
+  color:white;
+}
+.inputclass2
+{
+color:black;
+font-size:20px;
+margin-bottom: 20px;
+margin-right: 55px;
+width:250px;
+height:25px;
+}
+
+.submit{
+  width:100px;
+  height:30px;
+}
